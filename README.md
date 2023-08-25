@@ -1,2 +1,3 @@
-# our-project
-the first team project
+# first front end project
+the first personale project
+
