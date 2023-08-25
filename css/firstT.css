@@ -1,0 +1,74 @@
+/* start global rules */
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family:'Work Sans', sans-serif;;
+}
+/* :root{
+    /* --PrimaryColor":#10cab7; 
+} */
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/** mobile  */
+@media (min-width:768px){
+    .container{
+        width: 750px;
+        
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+        
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* end global rules */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+}
+header .container .links{
+    position: relative;
+}
+header .container .links .icon{
+    position: absolute;
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end ;
+}
+header .container .links .icon span{
+    background-color: #333;
+    position: absolute;
+    margin-bottom: 2px;
+}
+header .container .links .icon:first-child{
+    width: 100%;
+    height: 3px;
+}
+header .container .links .icon:nth-child(2){
+    width: 60%;
+    height: 3px;
+}
+header .container .links .icon:last-child{
+    width: 100%;
+    height: 3px;
+}
